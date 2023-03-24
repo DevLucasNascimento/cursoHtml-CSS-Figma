@@ -37,21 +37,39 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.apresentacao__links {
+.fotoLucas {
+    width: 500px;
     display: flex;
-    justify-content: space-between;
+    margin: 0 100px 400px;
+    border: 0.5px solid #22D4FD;
+    border-radius: 16px;
 }
 
-.apresentacao__links__link {
-    background-color: #22D4FD;
-    width: 280px;
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacao__links__subtitulo {
     text-align: center;
-    border-radius: 16px;
+    font-family: 'krona one', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+}
+.apresentacao__links__link {
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 10px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     
 }
