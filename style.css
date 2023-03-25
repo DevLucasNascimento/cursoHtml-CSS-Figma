@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6; 
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,6 +60,9 @@ body {
     font-size: 24px;
 }
 .apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -72,4 +74,18 @@ body {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 25px;
+    background-color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:#000000;
+    font-size: 24px;
+    font-weight: 400;
 }
